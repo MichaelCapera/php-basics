@@ -1,0 +1,11 @@
+<?php
+
+$name = "index";
+$name1 = &$name;
+
+$name = "index1";
+
+echo $name;
+echo $name1;
+
+?>
